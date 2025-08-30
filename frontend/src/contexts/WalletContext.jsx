@@ -5,8 +5,8 @@ import TicketNFTABI from '../abis/TicketNFT.json'
 import TicketMarketplaceABI from '../abis/TicketMarketplace.json'
 
 // Contract addresses from environment variables
-const TICKET_FACTORY_ADDRESS = "0xd57b614f888CFB1b35F12eEAd098Bc6bD5E06E00"
-const TICKET_NFT_ADDRESS = "0xf90269Af0410f0Ed5DeceB3f052AB9310978d547"
+const TICKET_FACTORY_ADDRESS = import.meta.env.VITE_TICKETFACTORY_DEPLOYED_ADDRESS;
+const TICKET_NFT_ADDRESS = import.meta.env.VITE_TICKETNFT_DEPLOYED_ADDRESS;
 const TICKET_MARKETPLACE_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3" // This will need to be updated after deployment
 
 const WalletContext = createContext()
