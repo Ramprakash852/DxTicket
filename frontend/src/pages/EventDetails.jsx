@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { ethers } from 'ethers'
-import { useWallet } from '../contexts/WalletContext'
+import { useWallet } from '../contexts/WalletContext.jsx'
 import TicketFactoryABI from '../abis/TicketFactory.json'
-import WhitelistMarketplace from '../components/WhitelistMarketplace'
+import WhitelistMarketplace from '../components/WhitelistMarketplace.jsx'
 
 function EventDetails() {
   const { address } = useParams()

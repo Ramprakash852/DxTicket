@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { ethers } from 'ethers'
-import { useWallet } from '../contexts/WalletContext'
+import { useWallet } from '../contexts/WalletContext.jsx'
 
 function Marketplace() {
   const { isConnected, account, ticketMarketplace, getTicketNFTContract } = useWallet()

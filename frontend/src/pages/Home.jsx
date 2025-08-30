@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { ethers } from 'ethers'
-import { useWallet } from '../contexts/WalletContext'
+import { useWallet } from '../contexts/WalletContext.jsx'
 import TicketFactoryABI from '../abis/TicketFactory.json'
 import TicketNFTABI from '../abis/TicketNFT.json'
 

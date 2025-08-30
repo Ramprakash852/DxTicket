@@ -1,13 +1,13 @@
 import { Routes, Route } from 'react-router-dom'
 import { useEffect } from 'react'
-import Navbar from './components/Navbar'
-import Home from './pages/Home'
-import CreateEvent from './pages/CreateEvent'
-import EventDetails from './pages/EventDetails'
-import VerifyTicket from './pages/VerifyTicket'
-import MyTickets from './pages/MyTickets'
-import Marketplace from './pages/Marketplace'
-import { useWallet } from './contexts/WalletContext'
+import Navbar from './components/Navbar.jsx'
+import Home from './pages/Home.jsx'
+import CreateEvent from './pages/CreateEvent.jsx'
+import EventDetails from './pages/EventDetails.jsx'
+import VerifyTicket from './pages/VerifyTicket.jsx'
+import MyTickets from './pages/MyTickets.jsx'
+import Marketplace from './pages/Marketplace.jsx'
+import { useWallet } from './contexts/WalletContext.jsx'
 
 function App() {
   const { connectWallet } = useWallet()

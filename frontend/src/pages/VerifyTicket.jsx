@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useWallet } from '../contexts/WalletContext'
+import { useWallet } from '../contexts/WalletContext.jsx'
 
 function VerifyTicket() {
   const { isConnected, getTicketNFTContract } = useWallet()

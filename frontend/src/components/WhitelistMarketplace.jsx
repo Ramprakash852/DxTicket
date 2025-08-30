@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useWallet } from '../contexts/WalletContext';
+import { useWallet } from '../contexts/WalletContext.jsx';
 
 function WhitelistMarketplace({ eventContract, marketplaceAddress }) {
   const [whitelistStatus, setWhitelistStatus] = useState({

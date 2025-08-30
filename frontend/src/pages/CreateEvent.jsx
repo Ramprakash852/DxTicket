@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ethers } from 'ethers'
-import { useWallet } from '../contexts/WalletContext'
+import { useWallet } from '../contexts/WalletContext.jsx'
 
 function CreateEvent() {
   const { isConnected, ticketFactory, account } = useWallet()

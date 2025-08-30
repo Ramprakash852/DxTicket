@@ -5,11 +5,21 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3000
+    port: 3000,
+    headers: {
+      'Content-Type': 'application/javascript',
+    },
   },
   resolve: {
     alias: {
       '@': '/src',
+    },
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        format: 'es',
+      },
     },
   },
 })

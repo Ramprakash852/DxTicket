@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { useWallet } from '../contexts/WalletContext'
+import { useWallet } from '../contexts/WalletContext.jsx'
 
 function Navbar() {
   const { account, isConnected, connectWallet, disconnectWallet } = useWallet()
