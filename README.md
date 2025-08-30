@@ -1,4 +1,4 @@
-# NFT Ticketing DApp (Smart Contracts + Vite/React Frontend)
+# DxTicket (Smart Contracts + Vite/React Frontend)
 
 A full-stack, EVM-compatible NFT ticketing application that lets event organizers mint tickets as NFTs and users buy, list, and transfer them. The repository contains:
 
